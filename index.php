@@ -43,7 +43,7 @@ $obj = NEW book;
 				<div class="col-sm-9">
 					<div class="blog-post-area">
 						<h2 class="title text-center">Список книг</h2>
-                        <form name='publ' action='new.php' method='post'><div style='text-align: center; '><input type='image' src='<? echo __DIR__   ?>/images/add.png' name='new' alt='Новая'></div></form>
+                        <form name='publ' action='new.php' method='post'><div style='text-align: center; '><input type='image' src='/images/add.png' name='new' alt='Новая'></div></form>
 
                 <?php foreach($allBook as $book):?>
                         <form name="book" action="edit.php" method="post">
